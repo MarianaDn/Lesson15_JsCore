@@ -1,0 +1,38 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+.phone{
+    width: 300px;
+    height: 600px;
+    background-image: url('iphone.gif');
+    box-sizing: border-box;
+    padding: 37px 30px;
+}
+.block{
+    display: none;
+}
+p{
+    text-align: center;
+    color: #fff;
+}
+.numberMin{
+    font-size: 120px;
+    margin-bottom: 20px;
+    margin-top: 150px;
+    margin-left: 90px;
+}
+.textMin{
+    font-size: 30px;
+    margin-left: 80px;
+}
+.time{
+    display: block;
+    position: fixed;
+}
+
+.blackBlock{
+    width: 240px;
+    height: 525px;
+    background-color:#000;
+}
